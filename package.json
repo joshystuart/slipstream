@@ -8,7 +8,7 @@
     "redis",
     "sqs"
   ],
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": false,
   "author": "Josh Stuart <joshstuartx@gmail.com>",
   "repository": {
@@ -37,5 +37,6 @@
     "mocha": "^2.2.4",
     "should": "^6.0.1",
     "sinon": "^1.14.1"
-  }
+  },
+  "license": "MIT"
 }
