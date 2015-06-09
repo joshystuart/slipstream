@@ -43,4 +43,6 @@ queue.on(queue.EVENTS.MESSAGE_RECEIVED, function(message, done) {
     
     done();
 });
+
+queue.process();
 ```
