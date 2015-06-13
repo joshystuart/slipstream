@@ -2,4 +2,4 @@
  * Module dependencies
  */
 
-module.exports = require('./lib/');
+module.exports = require('./lib/queue');

@@ -46,3 +46,9 @@ queue.on(queue.EVENTS.MESSAGE_RECEIVED, function(message, done) {
 
 queue.process();
 ```
+
+### Tests
+
+```
+npm test
+```
