@@ -13,8 +13,8 @@ npm install slipstream --save
 ### Example
 
 ```javascript
-var Queue = require('slipstream').Queue;
-var Sqs = require('slipstream').providers.Sqs;
+var Queue = require('slipstream');
+var Sqs = require('slipstream-sqs');
 
 var queue = new Queue({
         batchSize: 5, //every connection to the provider will request 5 messages
