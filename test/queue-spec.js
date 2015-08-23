@@ -4,7 +4,7 @@ var Queue = require('../lib/queue');
 
 //TODO all tests
 describe('SQS Consumer', function() {
-    it('should get a message from a queue', function(done) {
+    xit('should get a message from a queue', function(done) {
         done();
     });
 });

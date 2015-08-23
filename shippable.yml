@@ -1,0 +1,22 @@
+# Language setting
+language: node_js
+
+# Version number
+node_js:
+  - 0.10.38
+
+# The path for Xunit to output test reports
+env:
+  - XUNIT_FILE=shippable/testresults/result.xml
+
+# Create directories for test and coverage reports
+before_script:
+  - mkdir -p shippable/testresults
+  - mkdir -p shippable/codecoverage
+
+# Running the tests
+script:
+  - npm test
+
+after_script:
+  - mongo test --eval "db.dropDatabase()"

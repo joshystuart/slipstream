@@ -1,5 +1,7 @@
 # Slipstream: Parallel Queue Processing
 
+[![Shippable](https://img.shields.io/shippable/557f6d30edd7f2c05219256f.svg)](https://app.shippable.com/projects/557f6d30edd7f2c05219256f)
+
 ![Slipstream: X-Men](https://s3-ap-southeast-2.amazonaws.com/pixy-marketing/github/slipstream.jpg)
 
 Slipstream provides simple parallel queue (SQS, Redis, etc) processing.
