@@ -6,7 +6,7 @@
         "parallel",
         "aws",
         "redis",
-        "sqs"
+        "sqs",
         "slipstream"
     ],
     "version": "0.1.0",
