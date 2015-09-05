@@ -19,4 +19,5 @@ script:
   - npm test
 
 after_script:
+  - ./node_modules/.bin/istanbul report cobertura --dir shippable/codecoverage
   - mongo test --eval "db.dropDatabase()"
